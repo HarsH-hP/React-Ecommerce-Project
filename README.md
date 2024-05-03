@@ -78,10 +78,11 @@ Currently, two official plugins are available:
 - React and Redux Toolkit facilitate an efficient and effective UI and state management approach, React Router manages navigation and routing, and additional tools like Axios and Formik streamline external API interactions and form handling.
 - This technological stack ensures that the project is not only robust and responsive but also adheres to modern development standards and best practices.
 
-**Technologies Used:** 
+**Tech Used:** 
 - React: A JavaScript library for building user interfaces, particularly dynamic single-page applications.
-- Redux Toolkit: An official, opinionated toolset for efficient Redux development, simplifying store setup and state management.
-- React Router: A library for handling routing in React applications, allowing navigation between different components without reloading the page.
+- Redux Toolkit: A toolset for efficient Redux development that includes utilities to simplify common use cases like store setup, creating reducers, immutable update logic, and more.
+- React Router: A standard library for routing in React that enables the navigation among views of various components in a React Application, allowing for dynamic routing.
+- Redux Thunk: Middleware that allows you to write action creators that return a function instead of an action, used for handling asynchronous logic within Redux.
 - TailwindCSS: A utility-first CSS (Cascading Style Sheets) framework with predefined classes that can be used to build and design web pages directly in markup.
 - Axios: A promise-based HTTP client for making requests to external APIs and handling responses.
 - Formik: A library for building forms in React, handling form submission, and input validation with minimal boilerplate.
@@ -90,4 +91,19 @@ Currently, two official plugins are available:
 - ESLint: A pluggable linting utility for JavaScript, used to identify and report on patterns in ECMAScript/JavaScript code, making code more consistent and avoiding bugs.
 - Babel: A JavaScript compiler that converts ECMAScript 2015+ code into a backward-compatible version of JavaScript that can be run by older JavaScript engines.
 - Webpack: A static module bundler for modern JavaScript applications, bundling all of an application’s assets, including JavaScript, images, fonts, and CSS.
+
+**React Concepts Used:**
+- JSX: JavaScript XML that allows you to write HTML in React.
+- Components: Independent and reusable bits of code used as building blocks for applications. Functional and class components are both utilized.
+- Props: Short for properties, these are a way of passing data from parent to child components.
+- State: A local data storage that is local to the component and cannot be passed to other components directly.
+- Hooks: Functions that let you “hook into” React state and lifecycle features from function components (e.g., useState, useEffect).
+- Context API: Provides a way to pass data through the component tree without having to pass props down manually at every level.
+- Router: Utilized to handle navigation from one view to another based on state conditions or user interactions.
+- Event Handling: Responding to user inputs and actions.
+- Lifting State Up: Often several components need to reflect the same changing data, so it's lifted up to their closest common ancestor.
+- Component Lifecycle: Managing resources with lifecycle methods in class components, and effects in functional components with useEffect.
+- Higher-Order Components (HOCs): Advanced technique in React for reusing component logic.
+- Form Handling: Using controlled components to handle form submission and integration with form libraries.
+- Redux Store: Centralized store for all the states in your application, accessed with React-Redux hooks like useSelector and useDispatch.
 
