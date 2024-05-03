@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-# React-Ecommerce-Project
+# React-Ecommerce-Project-Description
 
 **Abstract**
     - This document provides a detailed technical report of a multifunctional React application designed for e-commerce purposes, incorporating features such as user authentication, product browsing, shopping cart management, order processing, and administrative         
@@ -78,7 +78,7 @@ Currently, two official plugins are available:
 - React and Redux Toolkit facilitate an efficient and effective UI and state management approach, React Router manages navigation and routing, and additional tools like Axios and Formik streamline external API interactions and form handling.
 - This technological stack ensures that the project is not only robust and responsive but also adheres to modern development standards and best practices.
 
-**Tech Used:** 
+# **Tech Used:** 
 - React: A JavaScript library for building user interfaces, particularly dynamic single-page applications.
 - Redux Toolkit: A toolset for efficient Redux development that includes utilities to simplify common use cases like store setup, creating reducers, immutable update logic, and more.
 - React Router: A standard library for routing in React that enables the navigation among views of various components in a React Application, allowing for dynamic routing.
@@ -92,7 +92,7 @@ Currently, two official plugins are available:
 - Babel: A JavaScript compiler that converts ECMAScript 2015+ code into a backward-compatible version of JavaScript that can be run by older JavaScript engines.
 - Webpack: A static module bundler for modern JavaScript applications, bundling all of an application’s assets, including JavaScript, images, fonts, and CSS.
 
-**React Concepts Used:**
+# **React Concepts Used:**
 - JSX: JavaScript XML that allows you to write HTML in React.
 - Components: Independent and reusable bits of code used as building blocks for applications. Functional and class components are both utilized.
 - Props: Short for properties, these are a way of passing data from parent to child components.
